@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald&display=swap');
+
 body {
   background-color: #8b0000;
 }
 
-h3 {
+h2 {
+  font-family: 'Bangers', sans-serif;
   text-align: center;
+  font-size: 2rem;
+  color: white;
 }
 
 @font-face {
