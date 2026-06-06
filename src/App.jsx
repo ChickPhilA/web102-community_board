@@ -8,8 +8,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 className="app-title"> Konohagakure's Legendary Shinobi </h1>
-      <h3> Get to learn more about your favorite shinobi when the ninja world isn't in danger. </h3>
+      <h1 className="app-title"> Konohagakure's Epic Shinobi </h1>
+      <h2> Get to learn more about your favorite shinobi that help maintain peace in the ninja world. </h2>
       <CommunityBoard />
     </div>
   )
