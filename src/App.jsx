@@ -11,6 +11,10 @@ const App = () => {
       <h1 className="app-title"> Konohagakure's Epic Shinobi </h1>
       <h2> Get to learn more about your favorite shinobi that help maintain peace in the ninja world. </h2>
       <CommunityBoard />
+
+      <audio autoPlay loop controls>
+        <source src="/silhouette.mp3" type="audio/mpeg" />
+      </audio>
     </div>
   )
 }
