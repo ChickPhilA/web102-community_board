@@ -4,7 +4,7 @@ Submitted by: **Phillipe Manio**
 
 This web app: **Get to know more about your local, favorite Shinobi in Konohagakure and what they do to save the village, as well as the shinobi world.**
 
-Time spent: 3 hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 * [X] List anything else that you added to improve the site's functionality!
 
-I added an audio player below that plays Silhoutte by KANA-BOON, which is Naruto Shippuden's 16th (and most popular) opening.
+>I added an audio button below that plays an instrumental of Silhoutte by KANA-BOON, which is Naruto Shippuden's 16th (and most popular) opening.
 
 ## Video Walkthrough
 
@@ -38,20 +38,20 @@ Here's a walkthrough of implemented required features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+(Here's a video demo of my project, since it is easier for me to record compared to a GIF.)
+
+https://youtu.be/1Xvu38r9eC4
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
+>One challenge encountered while building the app was having all cards styled with a consistent positoning between the card picture, description, and the button. I had to apply a Flex rule in order to maintain consistency with the cards' internal details.
+>Another challenge was adding the audio button (because I love Naruto music, so why not), but I have some knowledge of states and refs in React, so I wanted to add a bit of fun to this community board.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Phillipe Manio]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
