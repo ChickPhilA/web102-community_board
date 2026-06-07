@@ -19,6 +19,8 @@ h3 {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
 }
 
 .card-name {
@@ -28,8 +30,20 @@ h3 {
   margin: 0;
 }
 
+.card-team {
+  text-align: center;
+  font-family: 'Bangers', sans-serif;
+  font-size: 1rem;
+  color: #ff6600;
+  margin: 4px 0 0 0;
+  letter-spacing: 1px;
+}
+
 .card-info {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card img {
@@ -44,6 +58,7 @@ h3 {
   text-align: center;
   font-size: 1.1rem;
   margin: 2rem;
+  flex: 1;
 }
 
 .card a {
@@ -52,10 +67,11 @@ h3 {
   background-color: #ff6600;
   color: white;
   padding: 8px 16px;
-  margin-bottom: 16px;
+  margin: 0 auto 1.2rem auto;
   border-radius: 4px;
   text-decoration: none;
   transition: all 0.2s ease;
+  align-self: center;
 }
 
 .card a:active {
