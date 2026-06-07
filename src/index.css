@@ -2,6 +2,9 @@
 
 body {
   background-color: #8b0000;
+  background-image: url('public/hidden-leaf.svg');
+  background-repeat: repeat;
+  background-size: 45px;
 }
 
 h2 {
@@ -20,4 +23,9 @@ h2 {
   font-family: 'Ninja Naruto V1', cursive;
   text-align: center;
   color: #ff6600;
+}
+
+audio {
+  display: block; /* because it's automatically inline display */
+  margin: 2rem auto;
 }
