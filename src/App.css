@@ -74,11 +74,41 @@ h3 {
   align-self: center;
 }
 
-.card a:active {
-  transform: scale(0.95);
-}
-
 .card a:hover {
   cursor: pointer;
+  background-color: #cc5200;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card a:active {
+  transform: scale(0.95);
+  background-color: #993d00;
+  box-shadow: none;
+}
+
+.bgm-button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 12px 28px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #ff6600;
+  border: 3px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.bgm-button:hover {
+  background-color: #cc5200;
+  transform: scale(1.05);
+}
+
+.bgm-button:active {
+  transform: scale(0.95);
 }
 
